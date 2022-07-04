@@ -24,4 +24,3 @@
 <br/>
 ~ `GETPOST_URL` , url where you are deploying the project.
 
-# Feel free to make any changes.
