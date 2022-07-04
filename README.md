@@ -1,4 +1,3 @@
-# Mysummertraining21BCS2396
 
 # Getting Started
 
@@ -24,3 +23,5 @@
 ~ `ACCESS_KEY` used to encrypt/decrypt the token, It can be of you choice.
 <br/>
 ~ `GETPOST_URL` , url where you are deploying the project.
+
+# Feel free to make any changes.
