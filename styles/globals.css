@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*
+ * Base styles
+ */
+html{
+    overflow-x: hidden;
+}
+
+
+
+@layer utilities{
+
+    .button-grey-bg-a{
+        @apply bg-inherit hover:bg-[rgba(0,0,0,0.08)] 
+            text-[rgba(0,0,0,0.6)] hover:text-[black]
+            transition-all duration-150 ease-linear
+            font-semibold text-[18px]
+            p-2 rounded-[3px];
+    }
+
+    .button-blue-border-a{
+        @apply bg-inherit hover:bg-[rgba(112,181,249,0.15)]
+                text-[#006097] hover:text-[#0a66c2]
+                border-[2px]
+                border-[#006097] hover:border-[#0a66c2] 
+                outline-none hover:outline-[1px]
+                hover:outline-[#0a66c2] outline-offset-[-1px]
+                transition-all duration-150 ease-linear
+                font-semibold text-[18px]
+                py-2 px-6 rounded-full;
+    }
+}
+
+@layer utilities{
+    .leading-head{
+        @apply text-[rgba(143,88,73,1)] text-[56px] font-extralight ;
+    }
+
+    .input-ext{
+        @apply border-[1px] border-[rgba(0,0,0,0.6)] w-[50%] h-[50px] mt-4 cursor-text;
+    }
+}
+
+
